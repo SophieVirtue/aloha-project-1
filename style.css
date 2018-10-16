@@ -221,8 +221,6 @@ header .container {
   color: #b64036;
 }
 
-/* Use flex grow/flex shrink for header */
-
 .main-banner {
   background: linear-gradient(rgba(0, 0, 0, 0.25) 0, rgba(0, 0, 0, 0.25)),
     url("images/banner-girl.png") no-repeat center 60px,
@@ -305,6 +303,7 @@ span.bold {
   flex: 2 0 100%;
   border-top: 4px solid #fff;
   border-bottom: 4px solid #fff;
+  width: 100%;
   height: 246.5px;
   align-items: center;
   justify-content: center;
@@ -378,9 +377,9 @@ span.bold {
   background-size: cover;
   flex: 1 0 50%;
   max-width: 50%;
-  border-top: 4px solid #fff;
-  border-bottom: 4px solid #fff;
-  border-left: 4px solid #fff;
+  border-top: 4px solid #ffffff;
+  border-bottom: 4px solid #ffffff;
+  border-left: 4px solid #ffffff;
   height: 242.5px;
   align-items: center;
   justify-content: center;
@@ -396,8 +395,8 @@ span.bold {
     url(images/womens-category.jpg) no-repeat 50%;
   background-size: cover;
   flex: 2 0 100%;
-  border-top: 4px solid #fff;
-  border-bottom: 4px solid #fff;
+  border-top: 4px solid #ffffff;
+  border-bottom: 4px solid #ffffff;
   height: 246.5px;
   align-items: center;
   justify-content: center;
@@ -430,7 +429,7 @@ span.bold {
   padding: 0;
 }
 
-.carousel-cell .main-carousel {
+.main-carousel .carousel-cell {
   width: 100%;
 }
 
@@ -566,32 +565,110 @@ footer.footer {
     flex-wrap: nowrap;
   }
 
-  .main-carousel .carousel-cell {
+  .logo {
+    order: 1;
+    flex-basis: 20%;
+  }
+
+  .cart {
+    order: 3;
+    flex-basis: 20%;
+    width: 48px;
+  }
+
+  .navigation {
+    flex-basis: 60%;
+    order: 2;
+  }
+
+  .navigation ul {
+    border-top: none;
+    padding-top: 0;
+  }
+
+  .navigation li {
+    /* font-size: 0.7rem; */
+    margin: 0 0.5rem;
+  }
+
+  .navigation li a {
+    font-size: 0.9rem;
+  }
+
+  .collection-year {
+    font-size: 3rem;
+  }
+
+  .mens {
+    border-right: 4px solid #ffffff;
+    flex-basis: 50%;
+    height: 150px;
+  }
+
+  .trends {
+    border-left: 4px solid #ffffff;
+    flex-basis: 25%;
+    height: 150px;
+  }
+
+  .glasses {
+    border-right: 0;
+    flex-basis: 25%;
+    height: 150px;
+  }
+
+  .sale {
+    /* border-left: 4px solid #ffffff; */
+    flex-basis: 25%;
+    height: 150px;
+  }
+
+  .bags {
+    border-right: 4px solid #ffffff;
+    flex-basis: 25%;
+    height: 150px;
+  }
+
+  .womens {
+    border-left: 4px solid #ffffff;
+    flex-basis: 50%;
+    height: 150px;
+  }
+
+  .product-type-word a {
+    font-size: 1.8rem;
+  }
+
+  */ .main-carousel .carousel-cell {
     width: 50%;
   }
 
-  .flex-footer {
-    /* margin: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row; */
+  .form {
+    width: 67%;
   }
 
-  .contact {
-    /* width: 50%;
+  footer.footer {
+    text-align: left;
+  }
+
+  .footer .container {
+    margin: auto;
+  }
+
+  .social {
+    margin-top: 0;
+    padding-right: 2rem;
+  }
+
+  .social li {
     display: flex;
-    align-self: flex-start;
+    /* align-self: flex-end;
     flex-direction: column; */
   }
 
-  .social-icon {
-    /* width: 20%;
+  .social-name {
     display: flex;
-    align-self: flex-end;
-    flex-direction: column; */
   }
-}
 
 @media screen and (min-width: 1241px) {
   .container {
