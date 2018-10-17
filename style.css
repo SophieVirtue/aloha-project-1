@@ -433,6 +433,31 @@ span.bold {
   width: 100%;
 }
 
+.clothing-type {
+  font-size: .75rem;
+  margin-bottom: .75rem;
+  color: #969696;
+  font-weight: 700; 
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #e2574c;
+  line-height: 1;
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+}
+
+.price {
+  color: #969696;
+  font-weight: 700;
+  text-align: center;
+}
+
 .subscribe {
   background: linear-gradient(
       180deg,
@@ -443,6 +468,7 @@ span.bold {
   margin-bottom: 8px;
   padding: 4rem 0;
 }
+
 .subscribe .title {
   padding: 0;
 }
@@ -587,7 +613,6 @@ footer.footer {
   }
 
   .navigation li {
-    /* font-size: 0.7rem; */
     margin: 0 0.5rem;
   }
 
@@ -618,7 +643,6 @@ footer.footer {
   }
 
   .sale {
-    /* border-left: 4px solid #ffffff; */
     flex-basis: 25%;
     height: 150px;
   }
@@ -639,7 +663,7 @@ footer.footer {
     font-size: 1.8rem;
   }
 
-  */ .main-carousel .carousel-cell {
+  .main-carousel .carousel-cell {
     width: 50%;
   }
 
@@ -652,7 +676,8 @@ footer.footer {
   }
 
   .footer .container {
-    margin: auto;
+    display: flex;
+    justify-content: space-between;
   }
 
   .social {
@@ -661,22 +686,83 @@ footer.footer {
   }
 
   .social li {
-    display: flex;
-    /* align-self: flex-end;
-    flex-direction: column; */
+    display: block;
+    width: 110px;
+    height: 32px;
+  }
+
+  .social i {
+    min-width: 25px;
   }
 
   .social-name {
-    display: flex;
+    display: inline;
   }
 
-@media screen and (min-width: 1241px) {
+@media screen and (min-width: 1240px) {
   .container {
-    max-width: 1240px;
     margin: auto;
+    max-width: 1600px;
   }
+
+  .logo img {
+    width: 160px;
+  }
+
+  .cart img {
+    width: 62px;
+  }
+
+  .navigation li {
+    margin: 1rem;
+  }
+
+  .navigation li a {
+    font-size: 1rem;
+  }
+
+  .main-banner {
+    background-size: cover,250px 615px,contain;
+    height: 550px;
+    position: relative;
+  }
+
+  .collection-year {
+    font-size: 4rem;
+  }
+
+  .mens {
+    height: 358px;
+  }
+
+  .trends {
+    height: 358px;
+  }
+
+  .glasses {
+    height: 358px;
+  }
+
+  .sale {
+    height: 358px;
+  }
+
+  .bags {
+    height: 358px;
+  }
+
+  .womens {
+    height: 358px;
 
   .main-carousel .carousel-cell {
     width: 25%;
+  }
+
+  .form {
+    width: 30%;
+  }
+
+  .footer .container {
+    padding: 0 4rem;
   }
 }
