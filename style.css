@@ -132,7 +132,11 @@
   font-weight: 500;
   font-style: italic;
 }
-
+a:hover, a:focus {
+  background: black;
+  padding: 10px 15px;
+  color: white;
+}
 * {
   box-sizing: border-box;
   font-size: 14px;
