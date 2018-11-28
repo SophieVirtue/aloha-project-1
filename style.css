@@ -281,7 +281,7 @@ span.bold {
   line-height: 2.3rem;
 }
 
-#shop {
+.shop {
   padding: 0;
 }
 
@@ -421,7 +421,7 @@ span.bold {
   color: #ffffcc;
 }
 
-#featured {
+.featured {
   padding: 4rem 0;
 }
 

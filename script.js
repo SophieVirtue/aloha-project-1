@@ -57,7 +57,7 @@ $(document).ready(function() {
   //Subscribe function
   $(".form").on("submit", function(event) {
     event.preventDefault();
-    if ($("#your-email").val() == "") {
+    if ($(".your-email").val() == "") {
       alert("Please submit a valid email address.");
     } else {
       alert("Thanks for subscribing!");
