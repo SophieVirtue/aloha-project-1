@@ -1,9 +1,8 @@
 # Aloha Apparel
 
-This is a website for a clothing company named Aloha.  
-The project is responsive for mobile, tablet, and desktop.
+This is a website for a clothing company named Aloha.  The project is responsive for mobile, tablet, and desktop.
 
-![](Giphy.gif)
+![](AlohaGiphy.gif)
 
 ### Take a look for yourself!
 
