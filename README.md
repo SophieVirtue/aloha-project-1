@@ -1,6 +1,21 @@
-# Project 1
+# Aloha Apparel
 
 This is a website for a clothing company named Aloha.  
-The project is (mostly?) responsive for phones, tablets, and laptops/desktops.
-There is still some work to be done to perfect the page, but this took much longer than originally anticipated!
-Looking forward to feedback while continuously working to improve the site.
+The project is responsive for mobile, tablet, and desktop.
+
+![](Giphy.gif)
+
+### Take a look for yourself!
+
+[Aloha Apparel Co.] (https://sophievirtue.github.io/project-01-aloha/)
+
+## Technologies Used
+
+- HTML
+- CSS
+- Javascript
+- JQuery
+
+## Author
+
+Sophie Virtue  [LinkedIn](https://www.linkedin.com/in/sophie-virtue-65467849/)
