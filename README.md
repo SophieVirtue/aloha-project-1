@@ -6,7 +6,7 @@ This is a website for a clothing company named Aloha.  The project is responsive
 
 ### Take a look for yourself!
 
-[Aloha Apparel Co.] (https://sophievirtue.github.io/project-01-aloha/)
+[Aloha-Apparel-Co.] (https://sophievirtue.github.io/project-01-aloha/)
 
 ## Technologies Used
 
